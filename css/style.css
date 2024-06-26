@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
   font-family: "bebasneue-regular";
-  src: url(../../assets/fuentes/BebasNeue-Regular/);
+  src: url(../assets/fuentes/BebasNeue-Regular.ttf);
 }
 @font-face {
   font-family: "stencil";
-  src: url(../../assets/fuentes/SairaStencilOne-Regular.ttf);
+  src: url(../assets/fuentes/SairaStencilOne-Regular.ttf);
 }
 @font-face {
   font-family: "graffiti";
-  src: url(../../assets/fuentes/TheBattleCont.ttf);
+  src: url(../assets/fuentes/TheBattleCont.ttf);
 }
 * {
   margin: 0;
@@ -24,15 +24,15 @@ body {
 
 @font-face {
   font-family: "bebasneue-regular";
-  src: url(../../assets/fuentes/BebasNeue-Regular/);
+  src: url(../assets/fuentes/BebasNeue-Regular.ttf);
 }
 @font-face {
   font-family: "stencil";
-  src: url(../../assets/fuentes/SairaStencilOne-Regular.ttf);
+  src: url(../assets/fuentes/SairaStencilOne-Regular.ttf);
 }
 @font-face {
   font-family: "graffiti";
-  src: url(../../assets/fuentes/TheBattleCont.ttf);
+  src: url(../assets/fuentes/TheBattleCont.ttf);
 }
 .encabezado {
   display: flex;
@@ -462,15 +462,15 @@ footer div p {
 
 @font-face {
   font-family: "bebasneue-regular";
-  src: url(../../assets/fuentes/BebasNeue-Regular/);
+  src: url(../assets/fuentes/BebasNeue-Regular.ttf);
 }
 @font-face {
   font-family: "stencil";
-  src: url(../../assets/fuentes/SairaStencilOne-Regular.ttf);
+  src: url(../assets/fuentes/SairaStencilOne-Regular.ttf);
 }
 @font-face {
   font-family: "graffiti";
-  src: url(../../assets/fuentes/TheBattleCont.ttf);
+  src: url(../assets/fuentes/TheBattleCont.ttf);
 }
 .miembro-1, .miembro-4, .miembro-3, .miembro-2 {
   display: flex;
