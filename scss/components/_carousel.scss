@@ -1,0 +1,49 @@
+@import "../utilities/mixin";
+@import "../base/fuentes";
+
+//nick
+.miembro-1 {
+    @include flex-center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 60px 10px 30px 10px;
+    
+    .tamaño-carrucel {
+        width: 30%;
+    }
+
+    .container-data {
+        margin: 30px;
+
+        .nombres {
+            font-family: "graffiti";
+            font-size: 80px;
+            color: red;
+        }
+
+        .instrumento {
+            font-family: "stencil";
+            font-size: 50px;
+        }
+    }
+}
+
+//shohn
+.miembro-2 {
+    @extend .miembro-1;
+}
+
+//joel
+.miembro-3 {
+    @extend .miembro-1;
+
+    .nombres {
+        font-size: 40px
+    }
+}
+
+//frank
+.miembro-4 {
+    @extend .miembro-1;
+    margin-bottom: 80px;
+}

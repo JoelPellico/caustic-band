@@ -1,0 +1,44 @@
+@import "../utilities/variables";
+
+// fechas actuales
+
+.fechas {
+    @include flex-center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+    section{
+        img {
+            height: 600px;
+            padding-top: 6px;
+            margin: 0px 40px
+        }
+    }
+
+    .texto {
+        justify-content: center;
+        text-align: center;
+
+        div {
+            h3 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+// fechas antiguas
+
+.flyers-viejos {
+    @include flex-center;
+
+    .fv {
+        width: 500px;
+        height: auto;
+        margin: 40px;
+    }
+}

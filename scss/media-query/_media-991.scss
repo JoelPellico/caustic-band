@@ -1,0 +1,73 @@
+@import "../utilities/mixin";
+
+@media only screen and (max-width: 991px) {
+
+    //header
+
+    .contenedor-navs {
+        @include flex-center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .contenedor-emblema {
+        display: flex;
+        order: -1;
+
+        .margin-0 {
+            margin: 0 !important;
+        }
+
+        button {
+            display: flex !important;
+            position: fixed !important;
+            top: 35px;
+            right: 20px;
+        }
+    }
+
+    //index
+
+    .logo-index {
+        img {
+            width: 50%;
+        }
+    }
+
+    .redes-sociales {
+        ul {
+            display: flex;
+            justify-content: center;
+            height: 40%;
+
+            li {
+                display: inline-flex;
+                justify-content: center;
+                list-style: none;
+
+                img {
+                    width: 60px;
+                    margin: 15px;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+
+    .redes-sociales-mobile {
+        display: none;
+    }
+
+    //live
+
+    .antiguas {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .flyers-viejos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

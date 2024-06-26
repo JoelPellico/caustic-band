@@ -1,0 +1,28 @@
+//base
+@import "base/reset";
+@import "base/fuentes";
+
+//layout
+@import "layout/header";
+@import "layout/video-index";
+@import "layout/main";
+@import "layout/flyers";
+@import "layout/gallery";
+@import "layout/titulos";
+@import "layout/forms";
+@import "layout/footer";
+
+//redes sociales mobile
+@import "layout/redes-sociales-mobile";
+
+//components
+@import "components/carousel";
+
+//media query
+@import "media-query/media-991";
+@import "media-query/media-810";
+@import "media-query/media-360";
+
+//utilities
+@import "utilities/variables";
+@import "utilities/mixin";

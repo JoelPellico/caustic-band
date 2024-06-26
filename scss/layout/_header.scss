@@ -1,0 +1,55 @@
+@import "../utilities/variables";
+@import "../utilities/mixin";
+
+.encabezado {
+    @include flex-center;
+    background-image: linear-gradient($azul, black);
+    transition: 0.2s;
+
+    nav {
+        #navbarNav {
+            .enlaces {
+                @include flex-center;
+                font-size: 44px;
+                text-decoration: none;
+                margin: 15px;
+
+                li {
+                    .color-texto {
+                        color: white;
+                        transition: 0.2s !important;
+                        margin: 3px;
+
+                        &:hover {
+                            font-size: 54px ;
+                            color: white;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contenedor-emblema {
+            .margin-0 {
+                margin: 0px;
+
+                .emblema {
+                    height: 110px !important;
+                    transition: 0.2s !important;
+
+                    &:hover {
+                        height: 120px !important;
+                        padding: 0 ;
+                        margin: 0;
+                    }
+                }
+            }
+
+            button {
+                background-color: white;
+            }
+        }
+    }
+}

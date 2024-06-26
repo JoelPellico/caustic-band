@@ -1,0 +1,66 @@
+//general
+@import "../utilities/mixin";
+
+.fotos-general {
+    @include flex-center;
+    flex-wrap: wrap;
+    margin: 50px;
+
+    div {
+        a {
+            @include flex-center;
+            height: 500px;
+            margin: 25px;
+
+            img {
+                height: 500px;
+                transition: 0.2s;
+            }
+
+            & :hover {
+                height: 510px;
+            }
+        }
+
+        p {
+            @include flex-center;
+            font-size: 30px;
+        }
+    }
+}
+
+//varios
+@import "../utilities/mixin";
+
+.boton {
+    @include flex-center;
+
+    a {
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+        padding: 5px 10px 5px 2px;
+        margin-bottom: 10px;
+        transition: 0.2s;
+
+        &:hover {
+            font-size: 45px;
+        }
+    }
+}
+
+.grupo-de-fotos {
+    @include flex-center;
+    flex-wrap: wrap;
+
+    img {
+        height: 500px;
+        margin: 20px;
+    }
+}
+
+.fotografos {
+    @include flex-center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,136 @@
+@media only screen and (max-width: 810px) {
+
+    //index
+
+    .redes-sociales {
+        .logo-index {
+            img {
+                width: 50%;
+            }
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            height: 30%;
+
+            li {
+                display: inline-flex;
+                justify-content: center;
+                list-style: none;
+
+                img {
+                    width: 50px;
+                    margin: 10px;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+
+    .subcripcion {
+        p {
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+    }
+
+    .redes-sociales-mobile {
+        display: none;
+    }
+    
+    //band
+
+    //nick
+    .miembro-1 {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 60px 10px 30px 10px;
+
+        .tamaño-carrucel {
+            width: 60%;
+        }
+
+        .container-data {
+            margin: 30px;
+        }
+    }
+
+    //shohn
+    .miembro-2 {
+        @extend .miembro-1;
+
+        .container-data {
+            order: 1;
+        }
+    }
+
+    //joel
+    .miembro-3 {
+        @extend .miembro-1;
+    }
+
+    //frank
+    .miembro-4 {
+        @extend .miembro-1;
+
+        .container-data {
+            order: 1;
+        }
+    }
+
+    //gallery
+
+    .portada-ev {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 80%;
+        }
+    }
+
+    .portada-e {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 80%;
+        }
+    }
+
+    //gallery-varios
+
+    .grupo-de-fotos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .grupo-de-fotos img {
+            height: 300px;
+            margin: 20px;
+        }
+
+        .fotografos {
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+    }
+
+    //contact
+
+    textarea {
+        resize: none;
+        width: 90%;
+    }
+
+}

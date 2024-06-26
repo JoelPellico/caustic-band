@@ -1,0 +1,25 @@
+@import "../utilities/mixin";
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 120px;
+        margin-top: 30px;
+    }
+}
+
+//live antiguas
+
+.antiguas {
+    h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+        margin: 60px;
+    }
+}
