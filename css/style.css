@@ -166,10 +166,11 @@ body {
 }
 .news .texto h2, .news .nuevo .texto-news h2, .nuevo .news .texto-news h2 {
   font-size: 50px;
-  margin: 10px;
+  margin: 20px;
 }
 .news .texto p, .news .nuevo .texto-news p, .nuevo .news .texto-news p {
-  font-size: 20px;
+  font-size: 26px;
+  margin: 10px 60px 50px 60px;
 }
 
 .nuevo {
@@ -195,8 +196,8 @@ body {
   margin-top: 50px;
 }
 .nuevo .texto-news p {
-  font-size: 20px;
-  margin: 10px;
+  font-size: 26px;
+  margin: 10px 60px 50px 60px;
 }
 
 .arrowfire {
@@ -212,15 +213,15 @@ body {
   justify-content: center;
   align-items: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 50px;
 }
 .info-arrowfire p {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 50px;
+  font-size: 26px;
+  margin: 10px 60px 50px 60px;
 }
 
 .banda .logo-band {
@@ -238,8 +239,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 30px;
-  margin: 30px 0px;
+  font-size: 26px;
+  margin: 10px 60px 50px 60px;
 }
 
 .logo-contact {
@@ -282,10 +283,12 @@ body {
   text-align: center;
 }
 .fechas .texto div h3, .fechas .nuevo .texto-news div h3, .nuevo .fechas .texto-news div h3 {
-  font-size: 40px;
+  font-size: 50px;
+  margin-top: 50px;
 }
 .fechas .texto div p, .fechas .nuevo .texto-news div p, .nuevo .fechas .texto-news div p {
-  font-size: 20px;
+  font-size: 26px;
+  margin: 10px 60px 50px 60px;
 }
 
 .flyers-viejos {
@@ -367,6 +370,7 @@ h1 {
   display: flex;
   justify-content: center;
   font-size: 60px;
+  margin-top: 20px;
 }
 
 .titulo {
@@ -384,8 +388,8 @@ h1 {
 .antiguas h4 {
   display: flex;
   justify-content: center;
-  font-size: 100px;
-  margin: 60px;
+  font-size: 50px;
+  margin: 80px 0px 0px 20px;
 }
 
 .subcripcion {
@@ -669,6 +673,16 @@ footer div p {
     width: 280px;
     margin: 0px 40px;
   }
+  .news .texto h2, .news .nuevo .texto-news h2, .nuevo .news .texto-news h2 {
+    font-size: 35px;
+  }
+  .news .texto p, .news .nuevo .texto-news p, .nuevo .news .texto-news p {
+    font-size: 20px;
+    margin: 0;
+  }
+  .subcripcion div p {
+    font-size: 25px;
+  }
   .formulario input {
     display: flex;
     justify-content: center;
@@ -699,7 +713,7 @@ footer div p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
+    font-size: 80px;
     margin-top: 30px;
   }
   .nuevo .censura-news img {
@@ -710,6 +724,7 @@ footer div p {
   }
   .nuevo .texto-news p {
     font-size: 18px;
+    margin: 0;
   }
   .fechas section img {
     height: 400px;
@@ -720,6 +735,7 @@ footer div p {
   }
   .fechas .texto div p, .fechas .nuevo .texto-news div p, .nuevo .fechas .texto-news div p {
     font-size: 20px;
+    margin: 0;
   }
   .flyers-viejos .fv {
     width: 300px;
@@ -729,25 +745,25 @@ footer div p {
   .arrowfire {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 20px 0px;
   }
-  .band .logo-band {
+  .info-arrowfire p {
+    font-size: 20px;
+    margin: 20px 0px 50px 0px;
+  }
+  .banda .logo-band {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 50px;
   }
-  .band .logo-band img {
-    width: 70%;
+  .banda .logo-band img {
+    width: 80%;
   }
-  .band .info-banda {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin: 30px 0px;
+  .banda .info-banda {
+    font-size: 18px;
+    margin: 0;
   }
   .tamaño-carrucel {
     width: 60%;
